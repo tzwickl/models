@@ -6,7 +6,7 @@ import lombok.Data;
 public class ElasticSearchConfig {
     public static final String ELASTICSEARCH = "elasticsearch";
     private String host;
-    private String doc;
+    private String index;
     private int port;
     private String scheme;
 }
